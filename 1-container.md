@@ -80,6 +80,12 @@ docker的使用有点像git `docker search <img-name>` : 搜索docker 已有的�
 
 `docker tag <image-id> <tag-name>`: 为镜像添加tag
 
+* 更新镜像
+
+`docker -m "message" -a "author"   <container-id>  <name-of-image-to-create>:<image-tag-name>`
+
+``
+
 ## 4. Reference
 
 Runoob: [https://www.runoob.com/docker/docker-tutorial.html](https://www.runoob.com/docker/docker-tutorial.html)
